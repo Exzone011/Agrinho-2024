@@ -2,6 +2,8 @@
 
 Agrinho 2024 - Categoria 2
 
+Link da página: https://exzone011.github.io/Agrinho-2024/
+
 # Manual de Instruções do Site
 
 ## Introdução
