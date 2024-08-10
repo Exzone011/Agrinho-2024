@@ -1,0 +1,87 @@
+/* --------------------------- *\
+			GENERALES
+\* --------------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+html {
+	font-size: 16px;
+}
+
+  
+body {
+	background: url('https://img.freepik.com/fotos-premium/paisagem-agricola-do-campo-de-soja-com-amadurecimento-verde-ia-generativa_934909-6148.jpg?w=740') no-repeat center center fixed;
+	background-size: cover;
+  }
+
+body {
+	margin: 0;
+	height: 100vh; /* Garante que o corpo ocupe toda a altura da janela */
+	background-image: url('https://img.freepik.com/fotos-premium/paisagem-agricola-do-campo-de-soja-com-amadurecimento-verde-ia-generativa_934909-6148.jpg?w=740'); /* caminho para a imagem */
+	background-size: cover; /* Faz com que a imagem cubra toda a área do fundo */
+	font-family: system-ui, sans-serif;
+	background-color: var(--color-fondo);
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+}
+
+.container {
+	max-width: 1024px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+.container-adorno {
+	width: var(--espaciado-normal);
+	height: 100%;
+	background-color: var(--color-secundario);
+	position: absolute;
+}
+
+.container-titulo {
+	position: relative;
+}
+
+.titulo-adorno {
+	width: var(--espaciado-muy-alto);
+	height: var(--espaciado-muy-alto);
+	border-radius:  20% 550% 0;
+	background-color: var(--color-secundario);
+
+	position: absolute;
+	top: var(--espaciado-alto);
+	left: var(--espaciado-muy-leve);
+}
+
+.titulo-texto {
+	margin: 0;
+	margin-left: var(--espaciado-titulo);
+	padding: var(--espaciado-muy-alto) 0;
+	color: var(--color-secundario);
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+  }
+
+ /* Deixar as letras da conclusão brancas com contorno preto */
+#conclusao, 
+#conclusao p, 
+#conclusao .titulo-texto, 
+#conclusao .conclusao-descricao {
+    color: var(--color-fonte); 
+}
+
+
+
+  

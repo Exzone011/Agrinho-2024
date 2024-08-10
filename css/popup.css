@@ -1,0 +1,62 @@
+ /* Estilos básicos para o pop-up */
+ #quizPopup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: var(--color-fonte);
+    border: 2px solid var(-color-botao);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    max-width: 300px;
+    width: 100%;
+}
+
+#quizPopup h2 {
+    margin-top: 0;
+}
+
+#quizPopup button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: var(-color-botao);
+    color: var(--color-fonte);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#quizPopup button:hover {
+    background-color: var(-color-botao);
+}
+
+ /* Estilos gerais */
+ body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos do popup */
+#rotate-notification {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: var(--color-fonte);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 9999;
+    width: 80%;
+    max-width: 300px;
+}
+
+/* Mostrar o popup em telas menores que 768px */
+@media (max-width: 768px) and (orientation: portrait) {
+    #rotate-notification {
+        display: block;
+    }
+}

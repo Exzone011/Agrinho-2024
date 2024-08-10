@@ -1,0 +1,46 @@
+/* --------------------------- *\
+			VARIABLES
+\* --------------------------- */
+
+:root {
+	--color-fondo: #67ead8;
+	--color-principal: #525855;
+	--color-secundario: #0c0735;
+	--color-citacao: #1f2acc;
+	--color-black: #ecf2f5;
+	--color-gray: #2c2c2c;
+	--color-lightgray: #848484;
+	--color-white: #ffffff;
+	--color-white-fondo: #c8eebc;
+	--color-botao: #4CAF50;
+	--color-fonte: white;
+	--color-borda: #ddd;
+	--color-sombra: #555;
+	--color-sombra: #333;
+	--color-link: #f8f8fd;
+	--color-mouse:  pink;
+	--color-link-ativo:  yellow;
+	--color-creditos: #0c5023;
+	
+
+
+	
+
+
+	--espaciado-muy-leve: calc(var(--espaciado-normal)/4);
+	/* 5px */
+	--espaciado-leve: calc(var(--espaciado-normal)/2);
+	/* 10px */
+	--espaciado-normal: 1.25rem;
+	/* 20px */
+	--espaciado-alto: calc(var(--espaciado-normal)*1.5);
+	/* 30px */
+	--espaciado-muy-alto: calc(var(--espaciado-normal)*2);
+	/* 40px */
+
+	--espaciado-titulo: calc(var(--espaciado-normal)*3.5);
+	/* 70px */
+
+	--border-radius: var(--espaciado-muy-leve);
+	--box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
